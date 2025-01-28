@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng năm mới 2025</title>
+    <link rel="stylesheet" href="./styles.css">
+ 
+</head>
+<body>
+    <canvas id="cas"></canvas>
+    <div id="Merry" class="christmas-message">Chúc mừng năm mới</div>
+    <img class="tree-icon">
+    <audio id="audio" src="./tet.mp3"></audio>
+    <div class="container">
+        <button id="showButton">
+            Thân gửi
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img src="image/anhtet.png" alt="line slow">
+            </div>
+            <div class="details">
+                <h4 class="color1"></h2>
+                    <h4 class="color2 margin">Chúc mừng năm mới!</h3>
+                        <p><br></p>
+                        <p>Hiền ơi, Tết đã ghé qua,</p>
+                        <p>Anh đây chẳng đợi, vội ra chúc liền.</p>
+                        <p>Chúc Hiền xinh đẹp, dễ thương,</p>
+                        <p>Giảng đường tỏa sáng, mọi thứ đều may.</p>
+                        
+                        <p>Tương lai rực rỡ chẳng xa,</p>
+                        <p>Học hành suôn sẻ, điểm số luôn mười.</p>
+                        <p>Nếu năm mới có cười vui,</p>
+                        <p>Thì cười với anh… một người thôi nha!</p>
+                        
+                        <p>Tết này quà cáp nhiều vô kể,</p>
+                        <p>Nhưng quà anh tặng là cả đời yêu thương.</p>
+                        <p>Nếu Hiền thấy vui trong lòng,</p>
+                        <p>Nhắn tin lại nhé, mình ngồi tính thêm!</p>
+                        <p><br></p>
+                        <p class="text-right">Thóc❤️</p>
+                        
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        document.body.addEventListener("click", function() {
+             var audio = document.getElementById("audio");
+             audio.play();
+         });
+     </script>
+</body>
+</html>
